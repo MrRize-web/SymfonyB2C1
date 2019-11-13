@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Page Test{% endblock %}
+{% block stylesheets %}<h1>
+    <meta name="description"content="azerty">
+</h1>{% endblock %}
+{% block body %}<h1>Bonjours{{ prenom }}</h1>
+<a HREF="{{ path("home") }}">Retour Accueil</a>
+{% endblock %}
